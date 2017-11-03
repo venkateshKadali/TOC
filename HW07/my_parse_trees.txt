@@ -1,0 +1,136 @@
+FINAL PARSER STATES:
+[PS59 | dp=2 from=0 upto=3 | C | CFP2) S ::= VP NOMINAL  | PS45 PS57 ]
+Parse Tree:
+S 
+ VP 
+  VERB 
+   Fly
+  PREP 
+   to
+ NOMINAL 
+  ProperNoun 
+   B
+
+FINAL PARSER STATES:
+[PS125 | dp=2 from=0 upto=3 | C | CFP2) S ::= VP NOMINAL  | PS111 PS123 ]
+Parse Tree:
+S 
+ VP 
+  VERB 
+   Fly
+  PREP 
+   to
+ NOMINAL 
+  ProperNoun 
+   A
+
+FINAL PARSER STATES:
+[PS188 | dp=1 from=0 upto=2 | C | CFP0) S ::= NP  | PS185 ]
+Parse Tree:
+S 
+ NP 
+  AUX 
+   Which
+  NOMINAL 
+   NOUN 
+    landmark
+
+FINAL PARSER STATES:
+[PS300 | dp=2 from=0 upto=2 | C | CFP1) S ::= NP NOMINAL  | PS262 PS298 ]
+Parse Tree:
+S 
+ NP 
+  NOUN 
+   your
+ NOMINAL 
+  NOUN 
+   altitude
+
+FINAL PARSER STATES:
+[PS418 | dp=2 from=0 upto=4 | C | CFP3) S ::= NP VN  | PS360 PS415 ]
+Parse Tree:
+S 
+ NP 
+  AUX 
+   Could
+  NOMINAL 
+   NOUN 
+    you
+ VN 
+  VV 
+   VERB 
+    fly
+   VERB 
+    higher
+
+FINAL PARSER STATES:
+[PS474 | dp=1 from=0 upto=2 | C | CFP4) S ::= VV  | PS472 ]
+Parse Tree:
+S 
+ VV 
+  VERB 
+   Fly
+  VERB 
+   higher
+
+FINAL PARSER STATES:
+[PS528 | dp=1 from=0 upto=2 | C | CFP4) S ::= VV  | PS526 ]
+Parse Tree:
+S 
+ VV 
+  VERB 
+   Fly
+  VERB 
+   lower
+
+FINAL PARSER STATES:
+[PS645 | dp=2 from=0 upto=4 | C | CFP3) S ::= NP VN  | PS588 PS642 ]
+Parse Tree:
+S 
+ NP 
+  AUX 
+   Can
+  NOMINAL 
+   NOUN 
+    you
+ VN 
+  VERB 
+   see
+  NOMINAL 
+   ProperNoun 
+    A
+
+FINAL PARSER STATES:
+[PS764 | dp=2 from=0 upto=4 | C | CFP3) S ::= NP VN  | PS707 PS761 ]
+Parse Tree:
+S 
+ NP 
+  AUX 
+   Can
+  NOMINAL 
+   NOUN 
+    you
+ VN 
+  VERB 
+   see
+  NOMINAL 
+   ProperNoun 
+    B
+
+FINAL PARSER STATES:
+[PS883 | dp=2 from=0 upto=4 | C | CFP3) S ::= NP VN  | PS826 PS880 ]
+Parse Tree:
+S 
+ NP 
+  AUX 
+   Can
+  NOMINAL 
+   NOUN 
+    you
+ VN 
+  VERB 
+   see
+  NOMINAL 
+   ProperNoun 
+    C
+

@@ -1,0 +1,78 @@
+<S>
+S
+</S>
+<V>
+S
+NP
+PP
+VP
+VV
+VN
+AUX
+NOMINAL
+NOUN
+ProperNoun
+VERB
+PREP
+</V>
+<T>
+Which
+landmark
+are
+you
+over
+Fly
+to
+A
+B
+C
+D
+What
+is
+your
+altitude
+Could
+fly
+higher
+lower
+Can
+see
+</T>
+<P>
+S ::= NP
+S ::= NP NOMINAL
+S ::= VP NOMINAL
+S ::= NP VN
+S ::= VV
+VN ::= VV
+NP ::= AUX NOMINAL
+NP ::= AUX PREP
+NP ::= NOUN
+PP ::= PREP NOMINAL
+VP ::= VERB PREP 
+VN ::= VERB NOMINAL
+VV ::= VERB VERB
+NOMINAL ::= NOUN
+NOMINAL ::= ProperNoun
+NOUN ::= you
+NOUN ::= your
+NOUN ::= altitude
+NOUN ::= landmark
+NOUN ::= over
+VERB ::= see
+VERB ::= lower
+VERB ::= higher
+VERB ::= fly
+VERB ::= Fly
+AUX ::= Which
+AUX ::= What
+AUX ::= Could
+AUX ::= Can
+PREP ::= is
+PREP ::= to
+PREP ::= are
+ProperNoun ::= A
+ProperNoun ::= B
+ProperNoun ::= C
+ProperNoun ::= D
+</P>
